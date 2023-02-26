@@ -1,0 +1,70 @@
+/* Set the background color for the page */
+body {
+    font-family: 'Press Start 2P', cursive;
+  
+    background-color: #f1f1f1;
+    
+    text-align: center;
+  
+    line-height: 1.2;
+    
+}
+
+/* Style the heading */
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3em;
+    margin: 4%;
+}
+
+/* Style the subheading */
+h3 {
+    font-size: 2rem;
+    margin-bottom: 3%;
+
+
+}
+
+
+.content {
+    font-weight: 400;
+    
+    margin: auto;
+    width: 70%;
+    text-align: left;
+
+    margin-top: 1.5em;
+    font-size: 1.2em;
+}
+
+/* Style the button */
+button {
+    margin: 20px;
+    width: 200px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:#3b74f7;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+/* Add hover effect to the button */
+button:hover {
+    background-color: #2e63e0;
+}
+
+@media only screen and (min-width: 800px) {
+    .content {
+    
+        
+        width: 50%;
+       
+  }
+}
